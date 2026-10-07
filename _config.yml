@@ -4,8 +4,7 @@ description: "High-performance creature landing, perching, and flight coordinati
 url: "https://decnet-games.github.io"
 baseurl: "/PERCH-DOC"
 
-# Theme setup (supports GitHub Actions builder and remote-theme fallback)
-theme: "just-the-docs"
+# Just the Docs theme via GitHub Pages remote_theme (Do NOT set 'theme: just-the-docs' as github-pages gem does not bundle it)
 remote_theme: "just-the-docs/just-the-docs"
 
 plugins:
